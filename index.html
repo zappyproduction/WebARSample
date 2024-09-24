@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <script src="Build/Build.loader.js"></script>
+    <script src="Build/WebARSample.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -73,9 +73,9 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/Build.data",
-                    frameworkUrl: "Build/Build.framework.js",
-                    codeUrl: "Build/Build.wasm",
+                    dataUrl: "Build/WebARSample.data",
+                    frameworkUrl: "Build/WebARSample.framework.js",
+                    codeUrl: "Build/WebARSample.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "WebGLTest",
